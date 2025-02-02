@@ -21,7 +21,7 @@ LogMonitoringSystem is a log monitoring platform for Hadoop datacenters, impleme
 1. **Batch Layer**:  
    - Kafka Producer → Spark Batch → Logstash → Elasticsearch → Kibana.  
 2. **Speed Layer**:  
-   - Kafka Producer → Spark Streaming → Filtering → Elasticsearch + Alerts.  
+   - Kafka Producer → Spark Streaming → Filtering → Elasticsearch + Alerts(emails)  → Kibana.  
 3. **Web Interface**: React connected to Elasticsearch/Kibana.  
  
 
